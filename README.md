@@ -51,8 +51,7 @@ terraform validate
 ```
 Apply
 ```
-
-<img width="1172" alt="image" src="https://github.com/user-attachments/assets/9738bd49-84cd-4c86-938c-bf805dfd3a5a" />
-
 terraform apply
 ```
+
+<img width="1172" alt="image" src="https://github.com/user-attachments/assets/9738bd49-84cd-4c86-938c-bf805dfd3a5a" />
