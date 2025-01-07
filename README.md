@@ -20,6 +20,10 @@ az login using subscription Id
 az account set --subscription <SUBSCRIPTION_ID>
 ```
 
+list account
+```
+az account list
+```
 Create a Service Principal in Azure AD with tokens for Terraform, replacing <SUBSCRIPTION_ID> with your subscription ID.
 
 ```
@@ -55,3 +59,21 @@ terraform apply
 ```
 
 <img width="1172" alt="image" src="https://github.com/user-attachments/assets/9738bd49-84cd-4c86-938c-bf805dfd3a5a" />
+
+
+```
+terraform show
+```
+
+```
+terraform state list
+```
+
+```
+terraform destroy
+```
+
+Override variales.tf values 
+```
+terraform apply -var "resource_group_name=vizzon-tf-2025-1" -var "location=UKWest"
+```

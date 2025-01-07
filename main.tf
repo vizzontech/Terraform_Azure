@@ -15,7 +15,13 @@ provider "azurerm" {
 }
 
 resource "azurerm_resource_group" "rg" {
-  name     = "vizzon-tf-2025"
-  location = "UKWest"
+  name     = var.resource_group_name
+  location = var.location
+
+  tags = {
+    Environment = "Azure Terraform"
+    Team        = "VizzonDevOps"
+  }
+
 }
 
