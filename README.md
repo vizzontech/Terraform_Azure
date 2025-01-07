@@ -1,5 +1,7 @@
 # Deploy infrastructure on azure using terraform
 
+https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/mssql_database
+
 ## Install terrafrom using Chocolatey package  
 If you haven't installed Chocolatey yet, follow this quick guide to set it up on your machine. https://docs.chocolatey.org/en-us/choco/setup/
 
@@ -76,4 +78,8 @@ terraform destroy
 Override variales.tf values 
 ```
 terraform apply -var "resource_group_name=vizzon-tf-2025-1" -var "location=UKWest"
+```
+
+```
+terraform init -upgrade
 ```
