@@ -99,7 +99,7 @@ resource "azurerm_mssql_database" "db" {
 
   # prevent the possibility of accidental data loss
   lifecycle {
-    prevent_destroy = true
+    prevent_destroy = false 
   }
 }
 
