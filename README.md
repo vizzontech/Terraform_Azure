@@ -60,6 +60,12 @@ Apply
 terraform apply
 ```
 
+Apply with auto approve
+```
+terraform apply -auto-approve
+```
+
+
 <img width="1172" alt="image" src="https://github.com/user-attachments/assets/9738bd49-84cd-4c86-938c-bf805dfd3a5a" />
 
 
